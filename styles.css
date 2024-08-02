@@ -1,6 +1,9 @@
 *{
     background-color: rgb(206, 184, 121);
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #00001a;
+    padding: 5px;
 }
 
 h1{
@@ -19,12 +22,28 @@ p{
     font-size: 20px;
 }
 
+ul{
+    list-style-type: none;
+}
+
+a:link{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #00001a;
+}
+
+a:hover{
+    font-weight: bold;
+    color: #00001a;
+    text-decoration: none;
+}
+
 .ingredients li{
     font-size: 20px;
 }
 
 #warning{
-    color: red;
+    color: rgb(143, 0, 0);
 }
 
 .nonVegan{
